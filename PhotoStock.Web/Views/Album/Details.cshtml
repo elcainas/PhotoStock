@@ -1,0 +1,57 @@
+﻿@model PhotoStock.Web.Models.AlbumViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+@section scripts
+{
+    <script>
+        $(function () {
+            $('.comment-photos').on("click", function (e) {
+                $.get($(this).prop('href'), function (response) {
+                    $("#comments").html(response)
+                });
+                e.preventDefault();
+            });
+        });
+    </script>
+}
+
+
+<h2>Details</h2>
+
+<div>
+    <h4>Album</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Album.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Album.Title)
+        </dd>
+
+    </dl>
+</div>
+
+
+<p>
+    @Html.DisplayNameFor(model => model.Photos)
+</p>
+
+<div class="row">
+    @foreach (var item in Model.Photos)
+    {
+        <div class="col-md-4">
+            <img src="@Url.Content(item.ThumbnailUrl)" alt="Image" />
+            @Html.ActionLink("Ver Comentarios", "Details", "Comment", new { id = item.Id }, new { @Class="comment-photos"})
+        </div>
+    }
+
+</div>
+
+<div id="comments"></div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

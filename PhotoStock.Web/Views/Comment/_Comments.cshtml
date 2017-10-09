@@ -1,0 +1,17 @@
+﻿@model IEnumerable<PhotoStock.BusinessLogic.Entities.Comment>
+
+<h3>
+  Comments
+</h3>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>
+            <b>@Html.DisplayFor(modelItem => item.Name)</b>
+            (@Html.DisplayFor(modelItem => item.Email))
+            <p>@Html.DisplayFor(modelItem => item.Body)</p>
+        </li>
+    }
+
+</ul>

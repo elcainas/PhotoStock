@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.Web", "PhotoStock.Web\PhotoStock.Web.csproj", "{FF93C545-83E8-41E8-973E-17EFBB12F52C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.BusinessLogic", "PhotoStock.BusinessLogic\PhotoStock.BusinessLogic.csproj", "{F85899F5-40F9-403A-9F21-6F81B917913E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.BusinessLogic.Interface", "PhotoStock.BusinessLogic.Interface\PhotoStock.BusinessLogic.Interface.csproj", "{99E60C3C-B604-4244-A826-786EC90631B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.DataAccess", "PhotoStock.DataAccess\PhotoStock.DataAccess.csproj", "{05A95523-0AEB-42DD-9C21-D7A5D444D3EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.DataAccess.Interface", "PhotoStock.DataAccess.Interface\PhotoStock.DataAccess.Interface.csproj", "{72A0C76F-3C11-4236-BBE1-23C8D5A7042B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.BusinessLogic.Entities", "PhotoStock.BusinessLogic.Entities\PhotoStock.BusinessLogic.Entities.csproj", "{28ECDBB2-5607-4483-8E0B-B57208218E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoStock.TestDA", "PhotoStock.TestDA\PhotoStock.TestDA.csproj", "{ED5F0933-34C3-48DA-845C-41D302942325}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF93C545-83E8-41E8-973E-17EFBB12F52C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF93C545-83E8-41E8-973E-17EFBB12F52C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF93C545-83E8-41E8-973E-17EFBB12F52C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF93C545-83E8-41E8-973E-17EFBB12F52C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F85899F5-40F9-403A-9F21-6F81B917913E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F85899F5-40F9-403A-9F21-6F81B917913E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F85899F5-40F9-403A-9F21-6F81B917913E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F85899F5-40F9-403A-9F21-6F81B917913E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99E60C3C-B604-4244-A826-786EC90631B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E60C3C-B604-4244-A826-786EC90631B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E60C3C-B604-4244-A826-786EC90631B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E60C3C-B604-4244-A826-786EC90631B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05A95523-0AEB-42DD-9C21-D7A5D444D3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05A95523-0AEB-42DD-9C21-D7A5D444D3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05A95523-0AEB-42DD-9C21-D7A5D444D3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05A95523-0AEB-42DD-9C21-D7A5D444D3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72A0C76F-3C11-4236-BBE1-23C8D5A7042B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72A0C76F-3C11-4236-BBE1-23C8D5A7042B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72A0C76F-3C11-4236-BBE1-23C8D5A7042B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72A0C76F-3C11-4236-BBE1-23C8D5A7042B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28ECDBB2-5607-4483-8E0B-B57208218E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28ECDBB2-5607-4483-8E0B-B57208218E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28ECDBB2-5607-4483-8E0B-B57208218E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28ECDBB2-5607-4483-8E0B-B57208218E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED5F0933-34C3-48DA-845C-41D302942325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5F0933-34C3-48DA-845C-41D302942325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5F0933-34C3-48DA-845C-41D302942325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5F0933-34C3-48DA-845C-41D302942325}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
